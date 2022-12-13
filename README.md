@@ -6,7 +6,7 @@
 * 전처리 후 : csv파일, 219788 rows × 16 columns / 0.7G
 
 
-### 각 행별 missing data 비율
+### 각 columns별 missing data 비율
 
 *  category - 0.0%
 *  tech1 - 98.4%
@@ -29,12 +29,12 @@
 *  details - 0.0%
   
 
-### Nan 값이 대부분인 필요없는 행 삭제
+### Nan 값이 대부분인 필요없는 columns 삭제
 1. tech1
 2. fit
 3. tech2
 4. similar_item
-* date 정보가 없는 상품도 80%로 매우 높으나, 이 상품들을 삭제하면 데이터의 수가 너무 적어져 삭제하지 않음
+5. date
 
 
 ### 카테고리 분류
